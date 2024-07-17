@@ -1,0 +1,28 @@
+/* pages/time/time.wxss */
+.container19{
+  padding: 50rpx 0;
+  background-color:rgb(252, 204, 46);
+  color: white;
+  text-align: center;
+  font-size: 100rpx;
+  font-family: serif;
+  margin: 10rpx 0;
+}
+
+.container22{
+  background-image:url(https://img2.baidu.com/it/u=1161280262,883365677&fm=253&fmt=auto&app=120&f=JPEG?w=1422&h=800); 
+  width:750rpx;
+  height:750rpx;
+  font-size: medium;
+   display: flex;
+  padding: 30rpx;
+}
+
+.container21{
+   padding:50rpx;
+}
+
+.content3{
+    font-size: medium;
+}
+

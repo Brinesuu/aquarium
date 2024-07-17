@@ -1,0 +1,14 @@
+/* pages/outcome/outcome.wxss */
+.container6{
+  padding: 50rpx 0;
+  background-color: rgb(161, 216, 250);
+  color: white;
+  text-align: center;
+  font-size: 80rpx;
+}
+
+.container25{
+   padding: 100rpx;
+   margin: 10rpx;
+}
+

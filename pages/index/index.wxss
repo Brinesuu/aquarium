@@ -1,0 +1,48 @@
+/**index.wxss**/
+.container{
+  padding: 50rpx 0;
+  background-color:rgb(180, 241, 11);
+  color: rgb(16, 125, 221);
+  text-align: center;
+  font-size: 50rpx;
+  margin: 5rpx 0;
+  
+}
+
+.swiper-item1{
+  font-size: 0.65cm;
+  background-color: aqua;
+  text-align: center;
+}
+.swiper-item2{
+  font-size: 0.8cm;
+  background-color: yellow;
+  text-align: center;
+}
+.swiper-item3{
+  font-size: 0.8cm;
+  background-color: pink;
+  text-align: center;
+}
+.swiper-item4{
+  font-size: 1cm;
+  background-color: rgb(245, 184, 72);
+  text-align: center;
+}
+
+.container8{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30rpx;
+}
+
+.pre{
+  padding:10rpx;
+  font-size: 50rpx;
+  background-color: cornsilk;
+  text-align: left;
+  margin: 10rpx 0;
+ 
+}
+

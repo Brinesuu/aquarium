@@ -1,0 +1,21 @@
+<!--pages/my/my.wxml-->
+<view class="container24">
+  <button open-type="chooseAvatar"  bind:chooseavatar="onChooseAvatar">使用头像
+<image class="avatar" src="{{avatarUrl}}"></image>
+</button> 
+<input  class="nick" type="nickname"  placeholder="请输入昵称"/>
+</view>
+
+
+
+<view class="hist">
+<navigator url="/pages/backdaily/backdaily">查看日记记录  >></navigator>
+</view>
+<view class="hist">
+<navigator url="/pages/backrecord/backrecord">查看记录  >></navigator>
+</view>
+<view class="exit">
+<button type="warn" bindtap="Back" class="Btntt">退出登录</button>
+</view>
+
+

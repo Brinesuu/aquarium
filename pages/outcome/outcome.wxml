@@ -1,0 +1,10 @@
+<!--pages/outcome/outcome.wxml-->
+<view class="container6">
+<text>操作成功！</text>
+</view>
+
+<view class="container25">
+<button bindtap="test5">返回主页</button>
+</view>
+
+

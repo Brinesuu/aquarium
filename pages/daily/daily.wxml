@@ -1,0 +1,17 @@
+<!--pages/daily/daily.wxml-->
+<view class="container3">
+<text>记录一下今天的心情、饮食、作息吧</text>
+</view>
+<picker mode="date" value="{{date}}" start="2022-03-01" end="2033-01-01" bindchange="bindDateChange">
+    <view class="picker">
+      点击选择今天的日期:{{date}}
+    </view>
+  </picker>
+<form bindsubmit="test1">
+<view class="container4">
+    <textarea name="mood" maxlength="200" placeholder="你的心情（最多不超过200字）" id="content" cols="30" rows="100"  ></textarea>
+</view>
+<view class="container5">
+<button plain="true" form-type="submit">next 下一页</button>
+</view> 
+</form>

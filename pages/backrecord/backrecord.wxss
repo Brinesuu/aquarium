@@ -1,0 +1,7 @@
+/* pages/backrecord/backrecord.wxss */
+.a{
+    padding: 50rpx;
+    background-color: bisque;
+    margin: 10rpx;
+    height:120rpx ;
+  }

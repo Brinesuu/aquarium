@@ -1,0 +1,14 @@
+/* pages/backdaily/backdaily.wxss */
+.container42{
+  padding: 50rpx;
+  background: mediumturquoise;
+  text-align: center;
+  font-size:60rpx;
+}
+
+.a{
+  padding: 50rpx;
+  background-color: bisque;
+  margin: 10rpx;
+  height:120rpx ;
+}

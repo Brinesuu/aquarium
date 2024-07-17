@@ -1,0 +1,22 @@
+<!--pages/backrecord/backrecord.wxml-->
+
+<view class='a' wx:for="{{ne}}" wx:key="key"><!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+    <!--index为每个数据对应的下标-->
+    <view >{{item.data.date1}} {{item.data.time1}}--{{item.data.date2}} {{item.data.time2}}</view>
+    <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+    <view>
+    病前饮食:{{item.data.eatbefore}}
+    </view>
+    <view>
+    症状:{{item.data.symptom}}
+    </view>
+    <view>
+    头疼后是否服用药物：{{item.data.radio1}}
+    </view>
+    <view>
+    头疼后是否得到休息或去了医院：{{item.data.radio2}}
+    </view>
+    <view>
+    疼痛等级:{{item.star}}
+     </view>
+</view>

@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <text>偏头痛记录小程序</text>
+</view>
+<view class="pre">
+<navigator url="/pages/preface/preface" >使用说明  >></navigator>
+</view>
+
+<swiper indicator-dots="true" autoplay="true" circular="true"   duration="600">
+<swiper-item class="swiper-item1 ">
+
+  <text>1主页</text>
+
+</swiper-item>
+<swiper-item class="swiper-item2">
+  <text>2记录
+  记录一下今天的情况吧</text>
+</swiper-item>
+<swiper-item class="swiper-item3">
+  <text>3日记
+  写日记有助于缓解病情</text>
+</swiper-item>
+<swiper-item class="swiper-item4">
+<text>4我的</text>
+  </swiper-item>
+</swiper>
+
+

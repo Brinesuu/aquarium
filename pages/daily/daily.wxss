@@ -1,0 +1,36 @@
+/* pages/daily/daily.wxss */
+.container3{
+  padding: 60rpx 0;
+  background-color:rgb(252, 204, 46);
+  color: white;
+  text-align: center;
+  font-size: 40rpx;
+  font-family: serif;
+}
+
+.picker{
+  padding: 30rpx;
+  font-size: medium;
+  background-color: rgb(169, 238, 99);
+  margin: 10rpx 0;
+}
+
+.container4{
+  background-image:url(https://img2.baidu.com/it/u=230242892,903440069&fm=253&fmt=auto&app=138&f=JPEG?w=658&h=411); 
+  width:750rpx;
+  height:750rpx;
+  font-size: medium;
+   display: flex;
+  padding: 30rpx;
+  
+}
+
+.content{
+  font-size: medium;
+ 
+}
+
+.container5{
+  padding: 80rpx;
+}
+

@@ -1,0 +1,31 @@
+/* pages/my/my.wxss */
+.container24{
+  text-align: left;
+  font-size: 50rpx;
+  padding: 100rpx;
+  background-color:wheat;
+  margin:15rpx 0;
+}
+
+.avatar{
+   height: 200rpx;
+   width: 200rpx;
+   padding: 20rpx;
+}
+
+.nick{
+   text-align: center;
+   padding: 50rpx;
+}
+
+.exit{
+   padding: 50rpx;
+}
+
+.hist{
+   padding:10rpx;
+   font-size: 50rpx;
+   background-color: gold;
+   text-align: left;
+   margin: 10rpx 0;
+}

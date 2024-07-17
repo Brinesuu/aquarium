@@ -1,0 +1,12 @@
+<!--pages/diet/diet.wxml-->
+<view class="container16">
+<text>你的饮食</text>
+</view>
+<form bindsubmit="test2" >
+<view class="container17">
+     <textarea name="diet" maxlength="200" id="content1" placeholder="你的饮食（最多不超过200字）" cols="30" rows="10"></textarea>
+</view>
+<view class="container20">
+     <button plain="true" form-type="submit">next 下一页</button>
+</view>
+</form>

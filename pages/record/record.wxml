@@ -1,0 +1,87 @@
+<!--pages/jilu/jilu.wxml-->
+<form bindsubmit="Submit"> 
+<view class="section1">
+  <view class="tui-picker-content">
+ <view class="tui-picker-name"></view>
+ <picker name="date1" mode="date" value="{{date1}}" start="2022-01-01" end="2033-01-01" bindchange="bindDateChange1">
+    <view class="picker">
+      头痛开始时间:{{date1}}
+    </view>
+  </picker>
+  <picker name="time1" mode="time" value="{{time1}}" start="00:00" end="24:00" bindchange="bindTimeChange1">
+    <view class="picker">{{time1}}
+    </view>
+  </picker>
+
+</view>
+
+</view>
+
+<view class="section1">
+  <view class="tui-picker-content">
+ <view class="tui-picker-name"></view>
+ <picker name="date2" mode="date" value="{{date2}}" start="2022-01-01" end="2033-01-01" bindchange="bindDateChange2">
+    <view class="picker">
+      头痛结束时间: {{date2}}
+    </view>
+  </picker>
+  <picker name="time2" mode="time" value="{{time2}}" start="00:00" end="24:00" bindchange="bindTimeChange2">
+    <view class="picker">{{time2}}
+    </view>
+  </picker>
+
+</view>
+
+</view>
+
+<view class="section">疼痛等级:          
+  <view>
+  <view class="zan-font-16 my-ib" bindtap="myStarChoose">
+    <block name="painrank" wx:for="{{starMap}}" value="{{star}}">
+      <text wx:if="{{star>=index+1}}"  class="zan-c-red" data-star="{{index+1}}">★</text>
+      <text wx:if="{{star<index+1}}"  class="zan-c-gray-dark" data-star="{{index+1}}">☆</text>
+    </block>
+  </view>
+  <!--★-->
+  <text class="zan-c-gray-dark">{{starMap[star-1]}}</text>
+</view>
+</view>
+<view class="Radio">
+  <text>我在头痛后服用了药物  </text>
+  <label>
+    <radio-group name="radio1" >
+    <radio class="RRdio" checked='{{check1}}'  bindtap='radiocon' value="{{check1}}"></radio>
+  </radio-group>
+</label>
+
+  </view>
+
+<view class="Radio">
+  <view> 我在头痛后得到了良好休息或去了医院 </view>
+  <label class="flex">
+    <radio-group name="radio2" >
+    <radio class="flex" checked='{{check2}}' value="{{check2}}" bindtap='radioco'></radio>
+  </radio-group>
+  </label>
+  </view>
+
+<view class="input-radius">
+ <input name="eatbefore" placeholder="请输入在头痛前吃了什么" value="{{form_info}}" auto-focus/>
+</view>
+
+<view class="input-radius">
+ <input name="symptom" placeholder="请输入头痛时伴随的症状有什么" value="{{form_info}}" auto-focus/>
+</view>
+
+<view class="ss">
+
+</view>
+<button class="submit_btn" type="primary" form-type="submit">确认提交</button>
+<button class="submit_btn" form-type="reset">重置</button>
+
+</form>
+
+
+
+
+

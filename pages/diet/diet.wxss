@@ -1,0 +1,29 @@
+/* pages/diet/diet.wxss */
+.container16{
+  padding: 50rpx 0;
+  background-color:rgb(252, 204, 46);
+  color: white;
+  text-align: center;
+  font-size: 100rpx;
+  font-family: serif;
+  margin: 10rpx 0;
+}
+
+.container17{
+  
+  background-image:url(https://img2.baidu.com/it/u=206559006,4177391125&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=375); 
+  width:750rpx;
+  height:750rpx;
+  font-size: medium;
+   display: flex;
+  padding: 30rpx;
+}
+
+.content2{
+     font-size: medium;
+}
+
+.container20{
+  padding:60rpx;
+}
+

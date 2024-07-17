@@ -1,0 +1,57 @@
+{
+  
+     "pages": [
+     "pages/login/login",
+     "pages/index/index",
+     "pages/record/record",
+     "pages/daily/daily",
+     "pages/my/my",
+     "pages/outcome/outcome",
+     "pages/diet/diet",
+     "pages/time/time",
+     "pages/preface/preface",
+     "pages/backdaily/backdaily",
+     "pages/backrecord/backrecord"
+     
+     
+   ], 
+     
+    "window": {
+     "backgroundTextStyle": "light",
+     "navigationBarBackgroundColor": "#fff",
+     "navigationBarTitleText": "偏头痛",
+     "navigationBarTextStyle": "black"
+   },
+   "tabBar": {
+     "list": [
+       {
+         "pagePath": "pages/index/index",
+         "text": "主页",
+         "iconPath": "/images/index.jpg",
+         "selectedIconPath": "/images/index.jpg"
+       },
+       {
+         "pagePath": "pages/record/record",
+         "text": "记录",
+         "iconPath": "/images/record.jpg",
+         "selectedIconPath": "/images/record.jpg"
+       },
+       {
+         "pagePath": "pages/daily/daily",
+         "text": "日记",
+         "iconPath": "/images/daily.jpg",
+         "selectedIconPath": "/images/daily.jpg"
+       },
+       {
+         "pagePath": "pages/my/my",
+         "text": "我的",
+         "iconPath": "/images/my.jpg",
+         "selectedIconPath": "/images/my.jpg"
+       }
+     ]
+   },
+   "style": "v2",
+   "sitemapLocation": "sitemap.json"
+
+}
+ 

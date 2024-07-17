@@ -1,0 +1,8 @@
+<!--pages/login/login.wxml-->
+<view class="container31">
+<view class="shouquan">
+    <button bindtap="test50" >授权登录并打开</button>
+</view>
+  
+</view>
+

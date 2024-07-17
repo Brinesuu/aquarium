@@ -1,0 +1,33 @@
+/* pages/preface/preface.wxss */
+.container39{
+  background-color:wheat;
+  text-align: center;
+  font-size: 50rpx;
+  padding: 50rpx;
+}
+.container36{
+  background-color:lightsteelblue;
+  text-indent: 2em;
+  font-size: 40rpx;
+}
+
+.container37{
+  background-color: lightsteelblue;
+  text-indent: 2em;
+  font-size:40rpx;
+}
+
+.container38{
+  background-color: lightsteelblue;
+  text-indent: 2em;
+  font-size:40rpx;
+}
+
+.container40{
+  padding: 70rpx;
+  background-color: lightsteelblue; 
+  text-align: center;
+  font-size: 60rpx;
+  color: red;
+}
+

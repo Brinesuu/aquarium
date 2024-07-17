@@ -1,0 +1,33 @@
+/* pages/login/login.wxss */
+
+.container31{
+  background-image:url(https://img0.baidu.com/it/u=1280129839,3190726016&fm=253&fmt=auto&app=138&f=JPEG?w=281&h=500) ;
+  width: 750rpx;
+  height:1200rpx;
+  font-size: x-large;
+  text-align: center;
+  font-style:bold;
+  
+}
+
+.shouquan{
+   padding:150rpx;
+}
+
+.ptt{
+   background-color: rgb(158, 236, 158);
+   padding: 60rpx;
+   text-align: center;
+   font-size: larger;
+   margin: 5rpx 0;
+}
+.container31{
+  background-image:url(https://img0.baidu.com/it/u=1280129839,3190726016&fm=253&fmt=auto&app=138&f=JPEG?w=281&h=500) ;
+  width: 750rpx;
+  height:1200rpx;
+  font-size: large;
+  text-align: center;
+  font-style:bold;
+}
+
+

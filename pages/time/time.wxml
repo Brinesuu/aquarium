@@ -1,0 +1,14 @@
+<!--pages/time/time.wxml-->
+<form bindsubmit="test4">
+<view class="container19">
+<text>你的作息</text>
+</view>
+
+<view class="container22">
+    <textarea name="schedule" maxlength="200" id="content3" placeholder="你的作息（最多不超过200字）" cols="30" rows="10"></textarea>
+</view>
+
+<view class="container21">
+<button plain="true" form-type="submit">保存并提交</button>
+</view>
+</form>
